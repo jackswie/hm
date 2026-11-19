@@ -18,7 +18,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: 9.1.0
-      - run: unzip -q GlassLock2_Pass9_Source.zip
+      - run: unzip -q GlassLock2_Pass10_LiquidGlass_Source.zip
       - run: gradle assembleDebug --stacktrace
         working-directory: GlassLock2
       - uses: actions/upload-artifact@v4
