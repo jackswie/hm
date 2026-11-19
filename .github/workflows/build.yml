@@ -26,7 +26,7 @@ jobs:
           gradle-version: 9.1.0
 
       - name: Extract source
-        run: unzip -q GlassLock2_Pass16_Music_Notification_Studio_Source.zip
+        run: unzip -q GlassLock2_Pass20_CinematicExperience_Source.zip
 
       - name: Build APK
         run: gradle assembleDebug --stacktrace
