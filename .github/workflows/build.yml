@@ -26,7 +26,7 @@ jobs:
           gradle-version: 9.1.0
 
       - name: Extract source
-        run: unzip -q GlassLock2_Pass13_WallpaperFirst_GlassFix.zip
+        run: unzip -q GlassLock2_Pass14_AlbumStudio_Parallax_Source.zip
 
       - name: Build APK
         run: gradle assembleDebug --stacktrace
