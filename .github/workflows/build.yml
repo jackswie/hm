@@ -26,7 +26,7 @@ jobs:
           gradle-version: 9.1.0
 
       - name: Extract source
-        run: unzip -q GlassLock2_3.0_Final_Candidate_3_Source.zip
+        run: unzip -q GlassLock2_3.0_Final_Candidate_3_Root_Fix.zip
 
       - name: Build APK
         run: gradle assembleDebug --stacktrace
