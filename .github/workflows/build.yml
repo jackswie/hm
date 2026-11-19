@@ -26,7 +26,7 @@ jobs:
           gradle-version: 9.1.0
 
       - name: Extract source
-        run: unzip -q GlassLock2_Pass31-36_MotionStudio_Source.zip
+        run: unzip -q GlassLock2_Pass31-36_MotionStudio_CompileFix1_Source.zip
 
       - name: Build APK
         run: gradle assembleDebug --stacktrace
