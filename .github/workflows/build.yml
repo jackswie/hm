@@ -26,7 +26,7 @@ jobs:
           gradle-version: 9.1.0
 
       - name: Extract source
-        run: unzip -q GlassLock2_3.0_Reference_Prismatic_Edges_Source.zip
+        run: unzip -q GlassLock2_3.0_Reference_Optics_Album_Fix_Source.zip
 
       - name: Build APK
         run: gradle assembleDebug --stacktrace
